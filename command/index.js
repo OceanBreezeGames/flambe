@@ -421,8 +421,7 @@ exports.build = function (config, platforms, opts) {
         var cert = "certs/android.p12";
         var password = get(config, "android password", "password");
         
-        return buildAir(["-D", "android", "-swf", CACHE_DIR+"air/"+swf], "android");
-		
+        return buildAir(["-D", "android", "-swf", CACHE_DIR+"air/"+swf], "android")
         .then(function () {
             if (!fs.existsSync(cert)) {
                 // Generate a dummy certificate if it doesn't exist
