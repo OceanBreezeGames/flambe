@@ -1,3 +1,7 @@
+Forked the latest audros/flambe (as of April 23, 2015)
+Merged with purplepwny/asynch_init
+Merged with purplepwny/flash_embedded_assets (this merge had things that needed fixing manually, so I did that).
+
 <img src="https://raw.github.com/aduros/flambe/master/command/data/scaffold/icons/72x72.png" width="72" height="72" align="absmiddle"> Flambe
 ======
 
